@@ -49,7 +49,7 @@ public class Pizza {
         System.out.println("pizza: "+basePizzaPrice);
 
         if(isExtraCheeseAdded) {
-            bill+="Extra cheese added" +extraCheesePrice+"\n";
+            bill+="Extra cheese added " +extraCheesePrice+"\n";
         }
 
         if(isExtraToppingsAdded) {
